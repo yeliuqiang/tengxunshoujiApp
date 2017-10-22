@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+.mininav {
+    width: 100%;
+    height: 28px;
+    background: #fdfdfd url(../img/xiazai/mininav.png) repeat-x top center;
+    border-bottom: 1px solid #ebebeb;
+}
+.mininavInner {
+    width: 1000px;
+    height: 28px;
+    margin: 0 auto !important;
+}
+.mininavInner a {
+    color: #666;
+    text-decoration: none;
+    font-family: "宋体";
+}
+.mininavInner .mininavLeft {
+    float: left;
+    margin-top: 8px;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+.mininavInner .mininavLeft .fl {
+    color: #c7c7c7;
+    float: left;
+}
+.mininavRight {
+
+    float: right;
+    color: #c7c7c7;
+    line-height: 28px;
+}
+.mininavRight a {
+    color: #666;
+    font-family: "宋体";
+}
+ a.mailLogin {
+    width: 30px;
+    height: 28px;
+    display: block;
+    float: right;
+    background-position: left -150px;
+   
+}
+a.mailLogin:hover {
+    background-position: -70px -150px;
+}
+a.qzoneLogin {
+    width: 30px;
+    height: 28px;
+    display: block;
+    float: right;
+    background-position: left -100px;
+}
+a.qzoneLogin:hover {
+  background-position: -70px -100px;
+ }
+a.login {
+    width: 70px;
+    height: 28px;
+    display: block;
+    float: right;
+    background-position: left -450px;
+}
+a.login:hover {
+    background-position: left -500px;
+}
+a.qzoneLogin, a.qzoneLogin:hover, 
+a.mailLogin, a.mailLogin:hover, 
+a.login, a.login:hover{
+    background-image: url(../img/xiazai/loginall_1.2.png);
+    background-repeat: no-repeat;
+}
+#main {
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	background: url(../img/xiazai/bgr.png) repeat;
+}
+.mainCon {
+	width: 1070px;
+	margin: 0px auto;
+	overflow: hidden;
+	background: url(../img/xiazai/mainbg.png) repeat-y;
+}
+.mainBox {
+	width: 1000px;
+	margin:0 auto;
+	padding: 60px 0px 60px;
+	overflow: hidden;
+}
+.dlul{
+	position: relative;
+	width: 917px;
+	padding-left: 83px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.dlul .line {
+   position: absolute;
+   top: 0px;
+   left: 499px;
+   width: 1px;
+   height: 700px;
+   border-right: 1px dashed #ccc;
+}
+.dlul li {
+	width: 917px;
+	margin: 0px auto 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+
+}
+.dlul li .js {
+	float: left;
+	width: 417px;
+	overflow: hidden;
+
+}
+.dlul li .tool {
+   display: block;
+   text-indent: -9999em;
+}
+.dlul li .tool01 {
+	width: 63px;
+	height: 73px;
+	background-position: 0px -85px;
+}
+
+.dlul li .l {
+	
+	float: left;
+	width: 108px;
+	overflow: hidden;
+	=
+}
+ .dlul li .r {
+	float: left;
+	width: 276px;
+	overflow: hidden;
+	
+
+}
+.appstore {
+	width: 224px;
+	height: 80px;
+
+
+}
+.yueyu {
+    width: 224px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-position: 0px -161px;
+}
+.yueyu a {
+    color: #055EAF;
+}
+
+.dlul li .appstore a {
+	display: block;
+	width: 224px;
+	height: 80px;
+	text-indent: -9999em;
+	background-position: 0px 0px;
+
+}
+
+.dlul li .js .r p {
+	width: 230px;
+	margin: 10px 0px;
+	line-height: 22px;
+}
+.dlul li .yueyu {
+	width: 224px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background-position: 0px -161px;
+}
+.m150 {
+	margin-left: 50px;
+	display: inline;
+}
+.dlul li .js .l {
+    float: left;
+    width: 108px;
+    overflow: hidden;
+}
+.dlul li .tool05 {
+	width: 63px;
+	height: 68px;
+	background-position: -378px -89px;
+}
+.dlul li .js .r dl{
+	width: 257px;
+	overflow: hidden;
+}
+.dlul li .js .r dl dt img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #DCDDDD;
+	margin: 0 auto 10px;
+	overflow: height;
+}
+.dlul li .js .r dl dd{
+	line-height: 23px;
+	margin: 0px;
+}
+.dlul li .mbo {
+	margin-bottom: 0px !important;
+}
+.dlul li .bb0 {
+	border-bottom: 0px !important;
+}
+.toolIpad, .iconIpad a {
+    background: url("../img/xiazai/ipadSprite.png") no-repeat scroll 0 0 transparent;
+        
+}
+.toolIpad {
+	background-position: 0 -171px;
+	height: 79px;
+	width: 46px;
+}
+.iconIpad {
+    height: 80px;
+    width: 224px;
+}
+.iconIpad a {
+    background-position: 0 0;
+    display: block;
+    height: 80px;
+    text-indent: -9999em;
+    width: 224px;
+}
+.duanxin {
+	margin-bottom: 70px;
+}
+.tool03 {
+    width: 63px;
+    height: 72px;
+    background-position: -180px -88px;
+}
+.dlul li .js .r .fs {
+    position: relative;
+    width: 224px;
+    height: 38px;
+    line-height: 38px;
+ 
+}
+.shuru {
+	position: absolute;
+	left: 0px;
+	top: 3px;
+	width: 166px;
+	height: 30px;
+}
+.fasong {
+    display: inline-block;
+    width: 72px;
+    height: 38px;
+    margin-left: 181px;
+    text-indent: -9999em;
+    background-position: -378px -162px;
+    border: 0px;
+    cursor: pointer;
+}
+.dlul li .js .r p {
+    width: 210px;
+    margin: 10px 0px;
+    line-height: 22px;
+}
+.tool02 {
+    width: 78px;
+    height: 80px;
+    background-position: -85px -80px;
+}
+.az {
+    display: block;
+    margin-top: 63px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: "微软雅黑", "黑体";
+    font-weight: normal;
+    color: #7D7D7D;
+}
+.android {
+    width: 222px;
+    height: 80px;
+}
+.android a {
+    display: block;
+    width: 222px;
+    height: 80px;
+    text-indent: -9999em;
+    background-position: -225px 0px;
+
+}
+.yjBox {
+    overflow: hidden;
+    width:216px;
+ }
+ }
+.yjBox a {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 40px;
+    margin-bottom: 10px;
+    text-indent: -9999em;
+    width: 102px;
+}
+.yyb {
+    display: block;
+    width: 102px;
+    height: 50px;
+    background: url("../img/xiazai/yyb.png") no-repeat scroll 0 0 transparent;
+    margin: 0 10px 0 0;
+}
+.tool04 {
+    width: 83px;
+    height: 72px;
+    background-position: -265px -92px;
+}
+.dlul li .js .r p.kuan {
+    width: 256px;
+}
+.dlul li .js .r p a {
+    color: #055EAF;
+}
